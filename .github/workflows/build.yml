@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v2
       - name: print something
         env:
-           super_secret: ${{ secrets.SUPERSECRET }}
+           super_secret: ${{ secrets.SUPER_SECRET }}
         run: echo "${super_secret}"
